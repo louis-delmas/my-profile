@@ -1,0 +1,111 @@
+/* Colors and fonts */
+
+body {
+	background: #a6a6a6;
+	color: #0C1217;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+			font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #cc0000;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #008000;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #3e5a76;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+a:hover {
+	color: #a3cbf1;
+}
+
+/* Custom design */
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+.box-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-blue {
+	background-color: #3e5a76;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 3px;
+}
+
+.btn-blue:hover {
+	background-color: #D4672D;
+	color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 20px 
+}
+
+.list-horizontal i {
+	color: #3e5a76;
+	font-size: 80px;
+}
+
+.list-horizontal i:hover {
+	color: #D4672D;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
